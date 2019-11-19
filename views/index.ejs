@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <button
+      type="“button”"
+      onclick="location.href='http://localhost:3000/newmemo'"
+    >
+      追加
+    </button>
+    <ul>
+      <%-content %>
+    </ul>
+  </body>
+</html>
